@@ -60,7 +60,7 @@ l6.sort()
 f1(l6)
 
 l6 = [10 , 200 , 40 , 26 , 400 , 100 , 1 ,12 ]  
-l6.sort(reverse=True)
+l6.sort(reverse=True) #reverse sort
 f1(l6)
 
 ra = [x  for x in range(10)]
@@ -77,3 +77,15 @@ f1(l7)
 l7.clear() #clear the list
 
 f1(l7)
+
+l8 = list(range(10)) #create list from range
+f1(l8)
+
+l9 = [10 , "Ahemad" , 20 , "Tafheem" , 30 , "Ahemad"] #list of different type
+f1(l9.index("Ahemad")) #return the index of 1st occurance of Ahemad
+
+l10 = [10 , 20 , 30 , 40 , 50 , 60 , 70 , 80 , 90 , 100]
+l11 = [100 , 110 , 120 , 130 , 140 , 150 , 160 , 170 , 180 , 190]
+
+l12 = l10 + l11 #add two list
+f1(l12)

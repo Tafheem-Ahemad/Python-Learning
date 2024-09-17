@@ -25,6 +25,14 @@ f1(num)
 num = "1000"
 f1(num)
 
+
+#input in python
+num = input("Enter the number")
+f1(num)
+
+num = input()
+f1(num)
+
 # s1[0]='1'
 
 # Number
