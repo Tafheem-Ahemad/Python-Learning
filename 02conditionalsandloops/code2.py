@@ -26,9 +26,8 @@ print(f"Your Password is {strengh}")
 print("Qustion 6")
 year = int(input("Take your input Year "))
 
-if year%4 == 0 :
+if year%400 == 0 :
 	print("Leap Year")
 else :
-	if(year %4 ==0  and year%100) :
-		print("Leap Year")
+	if(year %4 ==0  and year%100) : print("Leap Year")
 	else : print("Leap Year")
