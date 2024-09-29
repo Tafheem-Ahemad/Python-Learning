@@ -20,3 +20,12 @@ tu2 = (10 , 20 , 30 , 40 , 50 , 60 , 70 , 80 , 90 , 100)
 
 t3 = tu+tu2 # add two tuple like list
 f1(t3)
+
+
+numbers = 10 , "Ahemad" , True # packing of tuple
+f1(numbers)
+
+a, b, c = numbers # unpacking of tuple
+f1(a)
+f1(b)
+f1(c)
