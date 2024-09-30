@@ -40,3 +40,8 @@ f1(dic2)
 dic2.clear()
 f1(dic2)
 
+# Merge two dictionary
+dic1= {1: 'a' , 2: 'b'}
+dic2= {3: 'c' , 4: 'd'}
+dic3 = {**dic1 , **dic2}
+f1(dic3)
