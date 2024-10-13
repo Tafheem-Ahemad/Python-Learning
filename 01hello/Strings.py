@@ -44,3 +44,8 @@ s7 = r"c:user\pwd"
 f1(s7)
 
 print("Ahemad" in "Tafheem Ahemad")
+
+# Reverse of String
+s8 ="ahemad"
+s8 = s8[::-1]
+f1(s8)
