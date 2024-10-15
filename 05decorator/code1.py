@@ -1,10 +1,12 @@
 import time
+from datetime import datetime as dt
+from random import randint
 
 def decorater(func):
 	def wrapper (*args,**kwargs):
 		print(time.time())
 		result = func(*args,**kwargs)
-		print(time.time())
+		print(dt.now())
 		return result
 	return wrapper
 
