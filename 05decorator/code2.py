@@ -1,7 +1,7 @@
 
 def debuger(func):
 	def wrapper(*args,**kwargs):
-		args_value = ", ".join(str for str in args)
+		args_value = ", ".join([(str) for str in args])
 		result = func(*args,**kwargs)
 		print(f"calling: {func.__name__} with args {args_value}")
 		return result

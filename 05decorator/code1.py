@@ -2,7 +2,7 @@ import time
 from datetime import datetime as dt
 from random import randint
 
-def decorater(func):
+def timer(func):
 	def wrapper (*args,**kwargs):
 		print(time.time())
 		result = func(*args,**kwargs)
@@ -10,7 +10,7 @@ def decorater(func):
 		return result
 	return wrapper
 
-@decorater
+@timer
 def add_two_number(a,b):
 	return a+b
 
