@@ -23,6 +23,7 @@ class Car:
 class ElectricCar(Car) :
 	def __init__(self,brand : str , model : str , power :int):
 		super().__init__(brand, model)
+		# Car.__init__(self,brand, model) // This can be write 
 		self.__power = power
 
 
